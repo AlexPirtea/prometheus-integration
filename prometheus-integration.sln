@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prometheus-integration", "prometheus-integration\prometheus-integration.csproj", "{E44244AD-8B5A-4E84-A484-197804087C73}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D2FA8430-7B36-49AB-8560-9E4AB358C1F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E44244AD-8B5A-4E84-A484-197804087C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44244AD-8B5A-4E84-A484-197804087C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44244AD-8B5A-4E84-A484-197804087C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44244AD-8B5A-4E84-A484-197804087C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FA8430-7B36-49AB-8560-9E4AB358C1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FA8430-7B36-49AB-8560-9E4AB358C1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FA8430-7B36-49AB-8560-9E4AB358C1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FA8430-7B36-49AB-8560-9E4AB358C1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
